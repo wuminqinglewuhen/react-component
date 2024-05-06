@@ -1,0 +1,22 @@
+.flexRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagimation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.marL30{
+    margin-left: -30px;
+}
+
+:global {
+    //antd组件内 ResizeObserver loop limit exceeded报错隐藏
+#webpack-dev-server-client-overlay {
+    display: none !important;
+  }
+}
