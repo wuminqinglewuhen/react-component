@@ -79,9 +79,9 @@ export default function CustomName(props) {
                 width={1000}
                 onCancel={() => { setCustomNameOpen(false) }}
                 footer={null}
-                // bodyStyle={{
-                //     height: 500
-                // }}
+                bodyStyle={{
+                    height: 500
+                }}
                 destroyOnClose={true}>
                 <div>
                     <Form

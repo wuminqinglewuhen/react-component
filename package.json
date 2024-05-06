@@ -1,6 +1,6 @@
 {
   "name": "cbs-rc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js",
